@@ -959,3 +959,9 @@ LSEC_API int luaopen_ssl(lua_State *L) {
 }
 
 #endif
+
+LSEC_API int luaopen_ssl_run_from_c(lua_State *L) {
+  // WIP
+  return 1;
+}
+
